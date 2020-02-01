@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+       <listener class-name="com.ExtentReportandListerner.TestListerner"></listener>
+   </listeners>
+   
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testcases.LoginpageTestcase"/>
+      <class name="com.testcases.SwagLabPagetestcases"/>
+      <class name="com.testcases.CartpageTestcases"/>
+      <class name="com.testcases.CheckInformationtestcases"/>
+      <class name="com.testcases.CheckoutOverviewpagetestcases"/>
+      <class name="com.testcases.Finishtestcases"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
