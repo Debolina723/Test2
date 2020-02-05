@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.SwagLabPagetestcases">
+      <class name="com.testcases.LoginpageTestcase">
         <methods>
-          <include name="SwagLabpagetestcases" invocation-numbers="0"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="logintestcases"/>
         </methods>
-      </class> <!-- com.testcases.SwagLabPagetestcases -->
+      </class> <!-- com.testcases.LoginpageTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
